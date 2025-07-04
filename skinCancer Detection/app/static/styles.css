@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("/static/image/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #3a5f5f;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upload-section, .result-section {
+    width: 45%;
+}
+
+.upload-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.result-section {
+    color: white;
+    padding-right: 20px;
+}
+
+.upload-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#refreshBtn {
+    background-color: #6c757d;
+    margin-top: 20px;
+}
+
+#refreshBtn:hover {
+    background-color: #5a6268;
+}
+
+.prediction-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+#predictionResult {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+

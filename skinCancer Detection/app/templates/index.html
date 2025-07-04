@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detección de Cáncer de Piel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Detección de Cáncer de Piel</h1>
+        <div class="content-wrapper">
+            <div class="result-section">
+                <h2>Resultado de la Predicción:</h2>
+                <div id="predictionResult" class="prediction-box"></div>
+                <button id="refreshBtn">Refrescar Página</button>
+            </div>
+            <div class="upload-section">
+                <p>Cargue la imagen de la lesión</p>
+                <div id="drop-area" class="upload-area">
+                    <p>Elegir el archivo de importación</p>
+                    <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                </div>
+                <button id="analyzeBtn">Predecir</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
