@@ -35,7 +35,7 @@ pip install -r requirements.txt
 3. Descargar el modelo entrenado:
 El archivo modelo_final.h5 no está incluido en este repositorio debido a su tamaño.
 4. Descargalo desde:
-📥 [Link de descarga del modelo](https://drive.google.com/file/d/1J81WWsltFlsMUP7yGlI3AbcHPMFXNn91/view?usp=sharing)
+📥 [Link de descarga del modelo](https://drive.google.com/drive/folders/1J9B1MyZwlDJVNMFH45GgsUhOMu2meN_d?usp=sharing)
 Colocar el archivo modelo_final.h5 en la raíz del proyecto, junto a app.py.
 
 5. Actualizar el nombre del modelo en app.py:
